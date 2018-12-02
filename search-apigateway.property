@@ -1,7 +1,7 @@
 spring.application.name=search-apigateway
 #zuul.prefix=/api
-zuul.routes.search-apigateway.serviceId=search-service
-zuul.routes.search-apigateway.path=/api/**
+zuul.routes.search-service.serviceId=search-service
+zuul.routes.search-service.path=/api/**
 #zuul.routes.search-apigateway.stripPrefix=true
 eureka.client.serviceUrl.defaultZone:http://localhost:8761/eureka/
 logging.level.root=debug
