@@ -1,3 +1,4 @@
+zuul.ignored-services=*
 spring.application.name=search-apigateway
 #zuul.prefix=/api
 zuul.routes.search-service.serviceId=search-service
